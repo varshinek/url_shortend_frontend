@@ -1,0 +1,57 @@
+.Add_Url_Container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Add_Url_Box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #a1c3b057;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.Add_Url_header {
+  text-transform: capitalize;
+}
+
+.Add_Url_Error {
+  color: red;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+.Paste_Div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Result_Url{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.LongUrl_Result{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-all;
+    word-break: break-word;
+}

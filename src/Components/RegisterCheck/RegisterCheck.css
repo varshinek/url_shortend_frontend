@@ -1,0 +1,54 @@
+.RegisterCheck_Container {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.RegisterCheck_Loading {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #b2a1c3;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.RegisterCheck_Success {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #a5ebc275;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.RegisterCheck_Error {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #d15643b8;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px gray;
+}

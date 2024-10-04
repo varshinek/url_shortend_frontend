@@ -1,0 +1,32 @@
+.Register_Form{
+    display: flex;
+    min-height: 110vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Register_Box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 200, 255, 0.162);
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.Register_Error{
+    color: red;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.Register_header{
+    text-transform: capitalize;
+}
+
